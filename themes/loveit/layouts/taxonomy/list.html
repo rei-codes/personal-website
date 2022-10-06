@@ -1,0 +1,76 @@
+{{- define "title" }}
+{{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+
+<style scoped>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<div class="archive">
+    {{ $pageName := .Page.Name }}
+    {{ $pageType := .Page.Type }}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="single-title" style="display:flex; justify-content: center; text-transform:capitalize">
+        All {{- if (eq $pageName "Projects") -}}
+        Projects
+        {{else if (eq $pageType "categories") }}
+        Projects
+        {{ else }}
+        Articles
+        {{- end -}}
+    </h2>
+
+    <div style="height: 6px;"></div>
+
+
+
+    <center>
+        <h4 style="font-weight: normal;">
+            {{- if (eq $pageName "Projects") -}}
+            The projects that I made from scratch or involved in!
+            {{else if (eq $pageType "categories") }}
+            The projects that I made from scratch or involved in!
+            {{ else }}
+            Articles about Programming, Design, Flutter and cutting-edge technologies!
+            {{- end -}}
+        </h4>
+    </center>
+    <br>
+    <center>
+        {{- partial "tags-section.html" . -}}
+    </center>
+    <br>
+    <br>
+
+
+    <div class="container">
+        {{- range .Pages -}}
+        {{- if (eq $pageName "Projects") -}}
+        {{- .Render "project" -}}
+        {{- else if (eq $pageType "categories") -}}
+        {{- .Render "project" -}}
+        {{ else }}
+        {{- .Render "article" -}}
+        {{- end -}}
+        {{- end -}}
+    </div>
+
+    {{/* {{- partial "paginator.html" . -}} */}}
+    {{- partial "work-with-me.html" . -}}
+
+</div>
+
+
+{{- end -}}

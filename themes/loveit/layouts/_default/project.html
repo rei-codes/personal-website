@@ -1,0 +1,94 @@
+<article itemscope itemtype="http://schema.org/Article">
+    <a href="{{ .RelPermalink }}">
+        <div class="card-project">
+            <div class="card__header" style="position: relative;">
+                <img src="{{.Params.Image}}" alt="card-image" class="card__image" width="100%" height="250" />
+                <div class="tag-position">
+                    {{- range .Params.Categories -}}
+                    <span class="tag tag-blue">{{.}}</span>
+                    {{- end -}}
+                </div>
+
+            </div>
+            <div class="card__body">
+                <h4 style="font-size: 20px">{{.Params.Title}}</h4>
+                <div></div>
+                <p class="subtitles">{{.Params.Subtitle}}</p>
+            </div>
+        </div>
+    </a>
+</article>
+
+
+
+<style scoped>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .caption {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .subtitles {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .card__image {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+        border-radius: 1em;
+        max-height: 16rem;
+    }
+
+    .tag-position {
+        position: absolute;
+        top: .55em;
+        right: .65em;
+
+    }
+
+    .card-project {
+        display: flex;
+        flex-direction: column;
+        width: clamp(20rem, calc(20rem + 2vw), 22rem);
+        overflow: hidden;
+    }
+
+    .card__body {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-top: 1em;
+    }
+
+    .tag {
+        align-self: flex-end;
+        padding: .35em .5em;
+        border-radius: 1em;
+        font-size: .7rem;
+        font-weight: bold;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        text-transform: uppercase;
+        max-height: 20px;
+    }
+
+    .tag+.tag {
+        margin-left: .5em;
+    }
+</style>

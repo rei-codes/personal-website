@@ -1,0 +1,22 @@
+<div class="tag-cloud-tags">
+  {{- $taxonomy := .Data.Singular -}}
+
+  {{- if eq $taxonomy "category" -}}
+  {{- range $.Site.Taxonomies.categories.ByCount -}}
+  <a class="my-tag" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
+  {{- end -}}
+  {{else}}
+  {{- range $.Site.Taxonomies.tags.ByCount -}}
+  <a class="my-tag" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
+  {{- end -}}
+  {{end}}
+</div>
+
+<style>
+  .my-tag {
+    color: white !important;
+    background-color: black;
+    padding: .5em 1em;
+    border-radius: .35em;
+  }
+</style>

@@ -1,0 +1,91 @@
+{{- define "content" -}}
+{{- $params := .Scratch.Get "params" -}}
+{{- $profile := .Site.Params.home.profile -}}
+{{- $posts := .Site.Params.home.posts -}}
+
+<link rel="icon" type="image/png" sizes="32x32" href="./static/favicon.png">
+
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: 1070px) {
+        .container {
+            flex-direction: column !important;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+    }
+</style>
+<div class="home" {{ if ne $posts.enable false }} data-home="posts" {{ end }}>
+    {{- /* Profile */ -}}
+    {{- if ne $profile.enable false -}}
+    {{- partial "home/profile.html" . -}}
+    {{- end -}}
+
+    {{- /* Content */ -}}
+    {{- if .Content -}}
+    <div class="single">
+        <div class="content" id="content">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome"
+            $params.fontawesome | partial "function/content.html" | safeHTML -}}
+        </div>
+    </div>
+    {{- end -}} {{- /* Posts */ -}}
+    {{- if ne $posts.enable false | and .Site.RegularPages -}}
+
+
+    <br>
+    <br>
+
+
+    {{/* <center>
+        <div style="display: flex; justify-content:space-between; width:96%;">
+            <h2>Latest Articles</h2>
+            <a href="/articles">
+                <h3>SEE ALL</h3>
+            </a>
+        </div>
+    </center>
+    <br>
+    <div class="container">
+        {{- $articles := where .Site.RegularPages "Type" "articles" -}}
+        {{ $firstArticle := index (first 1 $articles) 0 }}
+        {{- range first 2 $articles -}}
+        {{- .Render "article" -}}
+        {{- end -}}
+    </div>
+    <br>
+    <br>
+    <br> */}}
+
+    <center>
+        <div style="display: flex; justify-content:space-between; width:97%; ">
+            <h2>Latest Projects</h2>
+            <a href="/projects">
+                <h3>SEE ALL</h3>
+            </a>
+        </div>
+    </center>
+    <br>
+    <div class="container">
+        {{- $projects := where .Site.RegularPages "Type" "projects" -}}
+        {{- range first 3 $projects -}}
+        {{- .Render "project" -}}
+        {{- end -}}
+    </div>
+
+    {{/* {{- partial "paginator.html" . -}} */}}
+    {{- end -}}
+
+    {{/* {{- partial "work-with-me.html" . -}} */}}
+
+</div>
+{{- end -}}

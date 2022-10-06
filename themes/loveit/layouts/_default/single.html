@@ -1,0 +1,91 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+{{- $params := .Scratch.Get "params" -}}
+<div class="page single special">
+
+
+    {{ if (eq .Page.Type "articles") }}
+    {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+    {{ $minutes := math.Ceil (div $readTime 60) }}
+
+    <br>
+
+    <div class="card__header" style="position: relative;">
+        <img src="{{.Params.Image}}" alt="{{.Params.Title}}" class="card__image" width="100%" />
+        <div style="margin-top: 16px;">
+            {{- range .Params.Tags -}}
+            <span class="tag tag-blue">{{.}}</span>
+            {{- end -}}
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        <h3 class="caption">{{ .Params.Caption }}</h3>
+        <h3 class="reading-time">{{ $minutes }} min read</h3>
+    </div>
+
+    <br>
+    <h2 class="title">{{.Params.Title}}</h2>
+    <br>
+
+    <div>
+        <h3 class="subtitle">{{ .Params.Subtitle }}</h3>
+        <h3 class="date">{{ .Date }}</h3>
+    </div>
+    {{ end }}
+
+    <br>
+    <br>
+
+    <div class="content" id="content">
+        {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome |
+        partial "function/content.html" | safeHTML -}}
+    </div>
+
+</div>
+{{ partial "related.html" . }}
+
+
+<style scoped>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card__image {
+        display: block;
+        object-fit: cover;
+        border-radius: 1em;
+    }
+
+    .caption {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .reading-time {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .tag {
+        align-self: flex-start;
+        padding: .65em 1.35em;
+        border-radius: 1em;
+        font-size: .75rem;
+        font-weight: bold;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        text-transform: uppercase;
+    }
+
+    .tag+.tag {
+        margin-left: .5em;
+    }
+</style>
+{{- end -}}
