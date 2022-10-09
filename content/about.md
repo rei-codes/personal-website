@@ -40,14 +40,14 @@ draft: false
 
 ## Experience
 
-| Company    | Role              | Start Date | End Date  | Duration        |
-| ---------- | ----------------- | ---------- | --------- | --------------- |
-| ICE        | Flutter Developer | Apr 2022   | July 2022 | 4 Months        |
-| Пошта УА   | Flutter Developer | Sept 2021  | Apr 2022  | 8 Months        |
-| Freelancer | Flutter Developer | Jun 2020   | Sept 2021 | 1 Year 3 Months |
-| Potensas   | Flutter Developer | Jan 2020   | Jun 2020  | 6 Months        |
-| MediaMarkt | IT Intern         | Aug 2019   | Sept 2019 | 1 Month         |
-| Proj-e     | IT Intern         | June 2019  | July 2019 | 1 Month         |
+| Company    | Role              | Work Type  | Start Date | End Date  | Duration        |
+| ---------- | ----------------- | ---------- | ---------- | --------- | --------------- |
+| ICE        | Flutter Developer | Remote     | Apr 2022   | July 2022 | 4 Months        |
+| Пошта УА   | Flutter Developer | Remote     | Sept 2021  | Apr 2022  | 8 Months        |
+| Freelancer | Flutter Developer | Remote     | Jun 2020   | Sept 2021 | 1 Year 4 Months |
+| Potensas   | Flutter Developer | In Office  | Jan 2020   | Jun 2020  | 6 Months        |
+| MediaMarkt | IT Intern         | In Office  | Aug 2019   | Sept 2019 | 1 Month         |
+| Proj-e     | IT Intern         | In Office  | June 2019  | July 2019 | 1 Month         |
 
 Note: ICE and Пошта УА (POSHTA UA) are the same company actually, because of the invasion of Ukraine, the company changed its name and service type. 
 
