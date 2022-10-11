@@ -89,5 +89,5 @@ Zarta is a trivia game you can play with your friends and have fun
 ### Also some mentionworthy Firebase usages
 - [cloud_firestore](https://pub.dev/packages/cloud_firestore) - Store Permanent Datas like User informations etc.
 - [firebase_database](https://pub.dev/packages/firebase_database) - Store Temproray Data like Game Rooms, Realtime Chats, In Game Interactinos, 
-- Storage - Store files like images
+- [firebase_storage](https://pub.dev/packages/firebase_storage) - Store files like images
 - Cloud Functions - Helper methods like Poking, Game Invitations, Scheduled Notifications, Crontabs
