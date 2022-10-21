@@ -10,7 +10,7 @@ draft: false
 - Phone - +90 553 740 12 38
 - Nationality - Turkish
 - Education - Computer Engineering
-- Freelance - Available (25$/h)
+- Freelance - Available (20$/h)
 - Job Offer - Available (Remote Preferred)
 
 ## Languages
