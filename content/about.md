@@ -11,7 +11,7 @@ draft: false
 - Nationality - Turkish
 - Education - Computer Engineering
 - Freelance - Available (20$/h)
-- Job Offer - Available (Remote Preferred)
+- Job Offer - Available (Remote Preferred but relocate is ok, too)
 
 ## Languages
 - Turkish (Native)

@@ -23,10 +23,12 @@
                 {{- else -}}
                 {{- .Site.Title -}}
                 {{- end -}}
+
             </a>
         </div>
         <div class="menu">
             <div class="menu-inner">
+
                 {{- range .Site.Menus.main -}}
                 {{- $url := .URL | relLangURL -}}
                 {{- with .Page -}}
@@ -86,6 +88,10 @@
                     </select>
                 </a>
                 {{- end -}}
+
+                <div class="my-button2">
+                    <a style="color: white;" href="mailto:hasanbb1567@gmail.com">HIRE ME</a>
+                </div>
             </div>
         </div>
     </div>
@@ -119,7 +125,13 @@
                     {{- .Site.Title -}}
                     {{- end -}}
                 </a>
+
+
             </div>
+            <div class="my-button2">
+                <a style="color: white;" href="mailto:hasanbb1567@gmail.com">HIRE ME</a>
+            </div>
+            <div style="width: 20px;"></div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
@@ -146,6 +158,7 @@
                 <a href="javascript:;" class="search-cancel" id="search-cancel-mobile">
                     {{ T `cancel` }}
                 </a>
+
             </div>
             {{- end -}}
             {{- $currentPage := . -}}
@@ -197,3 +210,21 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 {{- end -}}
+
+
+<style>
+    .my-button2 {
+        display: inline-flex;
+    }
+
+    .my-button2 a {
+        background: #1975bc;
+        padding: 0 14px;
+        border-radius: 9px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+</style>
