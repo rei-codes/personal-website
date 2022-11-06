@@ -31,12 +31,6 @@ Valorant Wiki is a wiki application for the game Valorant by Riot Games. In this
  
 ![Screenshots](/project-images/valorant/ss.webp)
 
-## Download
-
-<a href="https://play.google.com/store/apps/details?id=com.artlyapp.android">
-  <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
-</a>
-
 
 ## My Roles
 - UI/UX Designer - [Figma]
