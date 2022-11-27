@@ -215,8 +215,8 @@ Gitlab = "rei-codes"
 Dribbble = "rei-codes"
 Email = "hasanbb1567@gmail.com"
 RSS = true
-AppStore = "https://apps.apple.com/us/developer/hasan-basri-bayat/id1606631509"
-PlayStore = "https://play.google.com/store/apps/dev?id=8177722536707387831"
+# AppStore = "https://apps.apple.com/us/developer/hasan-basri-bayat/id1606631509"
+# PlayStore = "https://play.google.com/store/apps/dev?id=8177722536707387831"
 Figma = "https://www.figma.com/@rei_codes"
 Twitter = iisprei
 Instagram = ""
