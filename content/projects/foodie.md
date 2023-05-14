@@ -20,6 +20,9 @@ categories: [Mobile App, UI/UX Design]
 <div  style="height:200px; width:200px; border-radius:32px; box-shadow: rgba(149, 157, 165, 0.35) 0px 8px 24px;  display: flex; justify-content: center; align-items: center;background-color:white;">
   <img  src="/project-images/foodie/logo.webp" alt="App Logo" style="height:100px"/>
 </div>
+
+  <a href="https://coflow.com.tr/">Website</a>
+
 </center>
 
 ## Summary 
@@ -37,6 +40,12 @@ Foodie is an app that user can order food from different restaurants around his 
 <a href="https://play.google.com/store/apps/details?id=com.apphile.foodie">
   <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
 </a>
+
+<a href="https://www.figma.com/community/file/1000486391488737986">
+  <img src="/images/figma.webp" alt="figma" height="65px"/>
+</a>
+
+
 
 
 ## My Roles

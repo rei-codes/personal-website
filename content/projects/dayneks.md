@@ -21,11 +21,16 @@ categories: [Mobile App, UI/UX Design]
 <div  style="height:200px; width:200px; border-radius:32px; box-shadow: rgba(149, 157, 165, 0.35) 0px 8px 24px;  display: flex; justify-content: center; align-items: center;background-color:white;">
   <img  src="/project-images/dayneks/logo.webp" alt="App Logo" />
 </div>
+
+  <a href="https://www.daynex.com.tr/">Website</a>
+
 </center>
 
 ## Summary 
 
+
 E-commerce application. You can manage get orders, inspect , filter, sort  products and much more.
+
 ---
 
 
@@ -38,7 +43,7 @@ E-commerce application. You can manage get orders, inspect , filter, sort  produ
 
 ## Download
 
-<a href="[#](https://play.google.com/store/apps/details?id=com.apphile.dayneks)">
+<a href="https://play.google.com/store/apps/details?id=com.apphile.dayneks">
   <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
 </a>
 

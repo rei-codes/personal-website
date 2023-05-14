@@ -4,11 +4,11 @@ draft: false
 
 date: 14
 
-title: "Kudamono - Digital QR Menu App Platform"
-subtitle: "Kudamono contains 4 application. Web Application, Website, Admin Panel and Customer Console!!"
+title: "Kudamono - Digital QR Menu App"
+subtitle: "Kudamono is a platform that helps cafes and restaurants to show their menus."
 image: "/project-images/kudamono/cover.webp"
 
-categories: [Website, Web App, Mobile App, UI/UX Design]
+categories: [Web App, Mobile App, UI/UX Design]
 
 ---
 

@@ -2,7 +2,7 @@
 
 draft: false
 
-date: 8
+date: 7
 
 title: "Right Brain - Flashcard App for Babies"
 subtitle: "Right Brain is a learning app with flashcards for babies with parent control and graphs!"

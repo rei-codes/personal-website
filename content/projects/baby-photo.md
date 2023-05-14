@@ -38,6 +38,9 @@ An photo editor app which focused on parents who want to edit their babies with 
 <a href="https://apps.apple.com/tr/app/baby-photo-editor-milestone/id1350838310">
   <img src="/images/appstore.webp" alt="AppStore" height="65px"/>
 </a>
+<a href="https://www.figma.com/community/file/1139196892519123695">
+  <img src="/images/figma.webp" alt="figma" height="65px"/>
+</a>
 
 
 ## My Roles

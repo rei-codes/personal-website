@@ -38,6 +38,10 @@ A wallpaper app that allows you to enjoy with different wallpapers to your heart
   <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
 </a>
 
+<a href="https://www.figma.com/community/file/1139626079295052914">
+  <img src="/images/figma.webp" alt="figma" height="65px"/>
+</a>
+
 
 ## My Roles
 - UI/UX Designer - [Figma]

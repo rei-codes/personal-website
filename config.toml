@@ -211,14 +211,14 @@ GitHub = "rei-codes"
 Linkedin = "hasan-basri-bayat-01403118a"
 Telegram = "rei_codes"
 Medium = "@rei-codes"
-Gitlab = "rei-codes"
+# Gitlab = "rei-codes"
 Dribbble = "rei-codes"
 Email = "hasanbb1567@gmail.com"
-RSS = true
+RSS = false
 # AppStore = "https://apps.apple.com/us/developer/hasan-basri-bayat/id1606631509"
 # PlayStore = "https://play.google.com/store/apps/dev?id=8177722536707387831"
 Figma = "https://www.figma.com/@rei_codes"
-Twitter = iisprei
+Twitter = "iisprei"
 Instagram = ""
 Facebook = ""
 Youtubelegacy = ""

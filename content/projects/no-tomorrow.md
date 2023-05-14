@@ -4,7 +4,7 @@ draft: false
 
 date: 4
 
-title: "No Tomorrow - Minimal Todo List App"
+title: "No Tomorrow - Todo List App"
 subtitle: "No Tomorrow is a minimalistic task management app to help you stay organized and manage your today."
 image: "/project-images/noto/ss.webp"
 
@@ -35,6 +35,10 @@ No Tomorrow is a minimalistic task management app to help you stay organized and
 
 <a href="https://play.google.com/store/apps/details?id=com.apphile.no_tomorrow">
   <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
+</a>
+
+<a href="https://www.figma.com/community/file/1139629058750631030">
+  <img src="/images/figma.webp" alt="figma" height="65px"/>
 </a>
 
 

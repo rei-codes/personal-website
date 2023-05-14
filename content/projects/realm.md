@@ -22,7 +22,7 @@ categories: [Mobile App, UI/UX Design]
   />
 </center>
 
-## Summary 
+## Summary
 
 Minimalist Pomodoro App with Todo List!
 
@@ -31,6 +31,7 @@ I made it with React Native at first and, that made me realize, RN is buggy as h
 ---
 
 ## Screenshots
+
 ![Screenshots](/project-images/realm/ss.webp)
 
 ## Download
@@ -38,13 +39,17 @@ I made it with React Native at first and, that made me realize, RN is buggy as h
 <a href="https://play.google.com/store/apps/details?id=com.realmpomodoroapp">
   <img src="/images/googleplay.webp" alt="GooglePlay" height="65px"/>
 </a>
-
+<a href="https://apps.apple.com/gb/app/realm-pomodoro-app/id1661415938">
+  <img src="/images/appstore.webp" alt="AppStore" height="65px"/>
+</a>
 
 ## My Roles
+
 - UI/UX Designer - [Figma]
 - Mobile App Developer - [React Native / Flutter]
 
 ## Technical Features
+
 - State Management - [riverpod](https://pub.dev/packages/riverpod)
 - Dependency Injection - [riverpod](https://pub.dev/packages/riverpod)
 - Navigation - [go_router](https://pub.dev/packages/go_router)
