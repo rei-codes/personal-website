@@ -14,6 +14,9 @@ draft: false
 - Freelance - Available (25$/h)
 - Job Offer - Available (Remote prefered but relocate is ok, too)
 
+My life goal is working remotely, async, and on an open-source project while traveling the world!
+
+
 ## Languages
 
 - Turkish (Native)
