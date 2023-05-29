@@ -12,12 +12,12 @@ draft: false
 - Nationality - Turkish
 - Education - Computer Engineering
 - Freelance - Available (25$/h)
-- Job Offer - Available (Remote Preferred but relocate is ok, too)
+- Job Offer - Available (Remote prefered but relocate is ok, too)
 
 ## Languages
 
 - Turkish (Native)
-- English (Upper Intermediate)
+- English (Professional Working Proficiency)
 - Japanese (Beginner)
 
 <br>
@@ -47,7 +47,7 @@ draft: false
 | Gaboras    | Flutter Developer | Hybrid    | Nov 2022   | Present   | -               |
 | ICE        | Flutter Developer | Remote    | Apr 2022   | July 2022 | 4 Months        |
 | Пошта УА   | Flutter Developer | Remote    | Sept 2021  | Apr 2022  | 8 Months        |
-| Apphile    | Flutter Developer | Remote    | Jun 2020   | Sept 2021 | 1 Year 4 Months |
+| Freelance  | Flutter Developer | Remote    | Jun 2020   | Sept 2021 | 1 Year 4 Months |
 | Potensas   | Flutter Developer | In Office | Jan 2020   | Jun 2020  | 6 Months        |
 | MediaMarkt | IT Intern         | In Office | Aug 2019   | Sept 2019 | 1 Month         |
 | Proj-e     | IT Intern         | In Office | June 2019  | July 2019 | 1 Month         |
@@ -70,7 +70,7 @@ Note: ICE and Пошта УА (POSHTA UA) are the same company actually, because
 - Adaptive / Responsive Design - [flutter_screenutil](https://pub.dev/packages/flutter_screenutil), [responsive_framework](https://pub.dev/packages/responsive_framework)
 - Local Storage - [hive](https://pub.dev/packages/hive), [isar](https://pub.dev/packages/isar)
 - Better Programming - [flutter_hooks](https://pub.dev/packages/flutter_hooks), [flutter_lints](https://pub.dev/packages/flutter_lints), [dart_code_metrics](https://pub.dev/packages/dart_code_metrics), [mason](https://pub.dev/packages/mason)
-- Modelling - [freezed](https://pub.dev/packages/freezed), [json_serializable](https://pub.dev/packages/json_serializable),  [crimson](https://pub.dev/packages/crimson)
+- Modelling - [freezed](https://pub.dev/packages/freezed), [json_serializable](https://pub.dev/packages/json_serializable)
 - Testing - [mocktail](https://pub.dev/packages/mocktail)
 
 <br>
@@ -80,16 +80,15 @@ Note: ICE and Пошта УА (POSHTA UA) are the same company actually, because
 - State Management
   - [GetX](https://pub.dev/packages/get) - [for some good reasons](https://twitter.com/filiphracek/status/1468565501701939203?lang=en)
   - [mobx](https://pub.dev/packages/mobx), [redux](https://pub.dev/packages/redux) - They are great Global SM solutions but I don't think they are good fit for Flutter.
-- Local Storage - [sqflite](https://pub.dev/packages/sqflite),.. and any other [sql packages](https://fluttergems.dev/sql-database/) - There is no specific reason, I just don't like sql much ^^"
-- HTTP Client - [http](https://pub.dev/packages/http) - I'm just too lazy to implement interceptors/inspectors etc.
+- HTTP Client - [http](https://pub.dev/packages/http) - I'm just too lazy to implement my interceptors/inspectors etc.
 - Testing - [mockito](https://pub.dev/packages/mockito) - It needs code generation and type safety problems etc.
 
 <br>
 
 ## Little Note
 
-- I am currently using GitLab in the company and for some private projects
-- I use GitHub for public / open-source projects
+- I am currently using GitLab in the company (with given email) and for some private projects
+- I use GitHub for public / open-source projects 
 - I also used BitBucket for a while (at ICE Company), I don't know why people use it.
 
 That's why my GitHub Activity seems a bif off.
