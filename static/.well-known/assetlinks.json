@@ -10,5 +10,17 @@
         "3E:0C:BE:E4:29:61:17:68:52:45:B4:5B:EE:A2:74:5D:B6:18:B8:E6:E4:D9:2A:DD:94:71:64:99:93:CD:14:2A"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.temple.dev",
+      "sha256_cert_fingerprints": [
+        "3E:0C:BE:E4:29:61:17:68:52:45:B4:5B:EE:A2:74:5D:B6:18:B8:E6:E4:D9:2A:DD:94:71:64:99:93:CD:14:2A"
+      ]
+    }
   }
 ]
