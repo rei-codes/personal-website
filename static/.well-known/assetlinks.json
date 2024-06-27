@@ -1,9 +1,14 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.auto_route_test",
-    "sha256_cert_fingerprints":
-    ["0E:BD:92:F2:01:6B:C6:92:8A:4A:71:13:F4:67:A2:D7:E4:3A:2D:B1:DD:7C:5B:F4:1C:A9:6A:08:F2:C4:3A:B7"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.temple",
+      "sha256_cert_fingerprints": [
+        "3E:0C:BE:E4:29:61:17:68:52:45:B4:5B:EE:A2:74:5D:B6:18:B8:E6:E4:D9:2A:DD:94:71:64:99:93:CD:14:2A"
+      ]
+    }
   }
-}]
+]

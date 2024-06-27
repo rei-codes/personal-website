@@ -1,11 +1,27 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
+    "apps": [],
+    "details": [
       {
-        "appID": "2W2JBKCZRN.com.example.autoRouteTest",
-        "paths": ["*"]
+        "appIDs": [
+          "2W2JBKCZRN.com.example.temple",
+          "2W2JBKCZRN.com.example.temple.dev"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "2W2JBKCZRN.com.example.temple",
+      "2W2JBKCZRN.com.example.temple.dev"
     ]
   }
 }
